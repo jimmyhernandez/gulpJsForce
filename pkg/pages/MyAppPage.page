@@ -1,0 +1,22 @@
+<apex:page docType="html-5.0"
+           showHeader="false"
+           sidebar="false"
+           applyBodyTag="false"
+           applyHtmlTag="false"
+           standardStylesheets="false"
+           cache="true"
+>
+<html>
+<head>
+  <link rel="stylesheet" href="{!URLFOR($Resource.MyApp, 'css/main.css')}" />
+  <script src="{!URLFOR($Resource.MyApp, 'js/main.js')}"></script>
+</head>
+<body>
+<img src="{!URLFOR($Resource.MyApp, 'images/salesforce.jpg')}" />
+<div class="result"></div>
+
+<p>Test And Re Test</p>
+
+</body>
+</html>
+</apex:page>
